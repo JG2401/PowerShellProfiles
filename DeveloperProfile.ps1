@@ -2,7 +2,7 @@
 Import-Module -Name Terminal-Icons
 
 #Oh My Posh
-oh-my-posh init pwsh --config 'C:\Users\jonas\AppData\Local\Programs\oh-my-posh\themes\M365Princess.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config '%USERPROFILE%\AppData\Local\Programs\oh-my-posh\themes\M365Princess.omp.json' | Invoke-Expression
 
 #PSReadLine
 Import-Module PSReadLine #Needed to run the command below
