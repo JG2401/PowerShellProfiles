@@ -13,10 +13,10 @@ For installation run as administrator
 Install-Module -Name Terminal-Icons
 ```
 
+You can also take a look at the [official installation guide](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation).
+
 > [!IMPORTANT]
 > You must also install [Nerd-Fonts](#nerd-fonts).
-
-You can also take a look at the [official installation guide](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation).
 
 ### [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
 
