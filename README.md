@@ -57,7 +57,9 @@ Install-Module PSReadLine -Force
 
 For this representation you need ` Set-PSReadLineOption -PredictionSource History ` and ` Set-PSReadLineOption -PredictionViewStyle ListView `.
 
-If you want to use ` Set-PSReadLineOption -PredictionSource HistoryAndPlugin ` you need at least PowerShell version 7.1.999.
+> [!TIP]
+> If you want to use ` Set-PSReadLineOption -PredictionSource HistoryAndPlugin ` you need at least PowerShell version 7.1.999.
+
 
 You can also take a look at the [official installation guide](https://github.com/PowerShell/PSReadLine#installation).
 
