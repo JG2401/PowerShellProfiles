@@ -8,7 +8,15 @@ Displays the icons you can see on the right-hand side
 
 ![Nerd-Fonts - Example](images/terminal-icons_example.png)
 
-> :exclamation: Important: You must also install [Nerd-Fonts](#nerd-fonts).
+For installation run as administrator
+```
+Install-Module -Name Terminal-Icons
+```
+
+> [!IMPORTANT]
+> You must also install [Nerd-Fonts](#nerd-fonts).
+
+You can also take a look at the [official installation guide](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation).
 
 ### [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
 
@@ -26,7 +34,7 @@ Changes the path display to the following
 
 ![Oh My Posh - Example](images/oh-my-posh_example.png)
 
-There are several themes you can select from [GitHub](https://github.com/JanDeDobbeleer/oh-my-posh/tree/main/themes). I use [M365Princess](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/M365Princess.omp.json). You can find them after installation in ``` %USERPROFILE%\AppData\Local\Programs\oh-my-posh\themes ```
+There are several themes you can select from [GitHub](https://github.com/JanDeDobbeleer/oh-my-posh/tree/main/themes). I use [M365Princess](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/M365Princess.omp.json). You can find them after installation in ` %USERPROFILE%\AppData\Local\Programs\oh-my-posh\themes `.
 
 For installation run 
 ```
@@ -47,9 +55,9 @@ For installation run as administrator
 Install-Module PSReadLine -Force
 ```
 
-For this representation you need ``` Set-PSReadLineOption -PredictionSource History ``` and ``` Set-PSReadLineOption -PredictionViewStyle ListView ```.
+For this representation you need ` Set-PSReadLineOption -PredictionSource History ` and ` Set-PSReadLineOption -PredictionViewStyle ListView `.
 
-If you want to use ``` Set-PSReadLineOption -PredictionSource HistoryAndPlugin ``` you need at least PowerShell version 7.1.999.
+If you want to use ` Set-PSReadLineOption -PredictionSource HistoryAndPlugin ` you need at least PowerShell version 7.1.999.
 
 You can also take a look at the [official installation guide](https://github.com/PowerShell/PSReadLine#installation).
 
@@ -59,7 +67,7 @@ You can also take a look at the [official installation guide](https://github.com
 To open the profile configuration
 - open Windows Terminal
 - select your profile in the dropdown
-- type ```code $profile``` and press Enter
+- type ` code $profile ` and press Enter
 
 My personal [profile](./DeveloperProfile.ps1).
 
