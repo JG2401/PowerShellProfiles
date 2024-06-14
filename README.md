@@ -74,3 +74,21 @@ To open the profile configuration
 My personal [profile](./DeveloperProfile.ps1).
 
 A comprehensive sample for PSReadLine you can find on [GitHub](https://github.com/PowerShell/PSReadLine/blob/master/PSReadLine/SamplePSReadLineProfile.ps1).
+
+## Problem Solutions
+
+### Execution Policies
+
+In case you get an execution-policies error like that
+
+![alt text](images/execution-policies_error.png)
+
+you can check your policies with
+```
+Get-ExecutionPolicy -List
+```
+
+and change it with the following command (run powershell as administrator)
+```
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+```
