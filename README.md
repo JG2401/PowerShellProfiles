@@ -90,5 +90,5 @@ Get-ExecutionPolicy -List
 
 and change it with the following command (run powershell as administrator)
 ```
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
