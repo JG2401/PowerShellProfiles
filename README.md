@@ -63,6 +63,22 @@ For this representation you need ` Set-PSReadLineOption -PredictionSource Histor
 
 You can also take a look at the [official installation guide](https://github.com/PowerShell/PSReadLine#installation).
 
+### [Posh-Git](https://github.com/dahlbyk/posh-git)
+
+Provides tab completion for common git commands, branch names, paths and more in Powershell
+
+> [!IMPORTANT]
+> Please check out the [Prerequisites](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#prerequisites) before executing the following command.
+
+For installation run
+
+```
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
+
+then add `Import-Module posh-git` to your [Terminal Profile](#terminal-profile).
+
+You can also take a look at the [official installation guide](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installation).
 
 ## Terminal Profile
 
