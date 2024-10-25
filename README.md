@@ -80,6 +80,20 @@ then add `Import-Module posh-git` to your [Terminal Profile](#terminal-profile).
 
 You can also take a look at the [official installation guide](https://github.com/dahlbyk/posh-git?tab=readme-ov-file#installation).
 
+### [Posh-DotNet](https://github.com/bergmeister/posh-dotnet)
+
+`PowerShell` tab completion for the [dotnet CLI](https://github.com/dotnet/cli).
+
+For installation run
+
+```
+Install-Module posh-dotnet -Force
+```
+
+then add `Import-Module posh-dotnet` to your [Terminal Profile](#terminal-profile).
+
+You can also take a look at the [official installation guide](https://github.com/bergmeister/posh-dotnet?tab=readme-ov-file#installation).
+
 ## Terminal Profile
 
 To open the profile configuration
