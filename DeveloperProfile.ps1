@@ -20,3 +20,4 @@ else
 Set-PSReadLineOption -PredictionViewStyle ListView
 
 Import-Module posh-git
+Import-Module posh-dotnet
